@@ -129,6 +129,54 @@ dataset/metrics.csv
 dataset/summary_metrics.csv
 ```
 
+<br>
+
+## 📊 Dataset Information
+
+This project uses **40 clean AI-generated images** as reference images.
+Each image is used to generate **five degraded versions**:
+
+* `dark`
+* `low_contrast`
+* `blurry`
+* `noisy`
+* `color_shift`
+
+In total, the dataset contains:
+
+```text
+40 clean images
+200 degraded images
+200 restored images
+```
+
+All images and metadata are stored under the `dataset/` folder.
+
+<br>
+
+## 📈 Results
+
+The evaluation results are saved in:
+
+```text
+dataset/metrics.csv
+dataset/summary_metrics.csv
+```
+
+The project evaluates restoration quality using:
+
+* `MSE`
+* `PSNR`
+* `SSIM`
+
+Comparison images are saved in:
+
+```text
+dataset/comparisons/
+```
+
+<br>
+
 ## 📜 License
 
 Released under the **MIT License**.
