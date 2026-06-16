@@ -2,7 +2,6 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
-![Library](https://img.shields.io/badge/Library-OpenCV-green)
 
 Rule-based classical image processing pipeline for restoring and evaluating degraded AI-generated images.
 
